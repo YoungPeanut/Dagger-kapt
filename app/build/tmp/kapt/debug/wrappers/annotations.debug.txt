@@ -1,0 +1,25 @@
+p io.github.youngpeanut.dagger 0
+d 0/ActivityComponent
+a dagger.Component 0
+c 0 0/ActivityComponent
+d 0/ActivityComponent$DefaultImpls
+d 0/ActivityComponent
+c 0 0/ActivityComponent
+d 0/ActivityComponent$DefaultImpls
+d 0/ActivityModule
+a dagger.Module 1
+c 1 0/ActivityModule
+a dagger.Provides 2
+m 2 0/ActivityModule provideActivity
+a org.jetbrains.annotations.NotNull 3
+m 3 0/ActivityModule provideActivity
+d 0/DaggerActivity
+a javax.inject.Inject 4
+f 4 0/DaggerActivity presenter
+f 3 0/DaggerActivity presenter
+m 3 0/DaggerActivity getPresenter
+d 0/DaggerPresenter
+m 3 0/DaggerPresenter getView
+f 3 0/DaggerPresenter activity
+m 3 0/DaggerPresenter getActivity
+m 4 0/DaggerPresenter <init>
